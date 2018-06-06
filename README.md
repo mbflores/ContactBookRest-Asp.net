@@ -1,34 +1,27 @@
 # ContactBookRest-Asp.net
 
-
 API:
 
-url: 
+url:
 
-http://contactbookrest.azurewebsites.net
-
-
-GET:
-
-ALL   -->  http://contactbookrest.azurewebsites.net
-
-
+http://contactbookrest.azurewebsites.net/api/contacts
 
 GET:
 
-Specific   -->  http://contactbookrest.azurewebsites.net/{id}
+ALL --> http://contactbookrest.azurewebsites.net/api/contacts
 
+GET:
+
+Specific --> http://contactbookrest.azurewebsites.net/api/contacts/{id}
 
 POST:
 
-http://contactbookrest.azurewebsites.net
-
+http://contactbookrest.azurewebsites.net/api/contacts
 
 DELETE:
 
-http://contactbookrest.azurewebsites.net
-
+http://contactbookrest.azurewebsites.net/api/contacts
 
 PUT:
 
-http://contactbookrest.azurewebsites.net/{id}
+http://contactbookrest.azurewebsites.net/api/contacts/{id}
